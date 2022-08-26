@@ -1,0 +1,40 @@
+.section-clients {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  justify-content: center;
+}
+
+.section-clients__link {
+  color: #afb1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
+
+.section-clients__items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.section-clients__icon {
+  fill: currentColor;
+}
